@@ -15,7 +15,7 @@ This Notion integration syncs GitHub Issues for a specific repo to a Notion Data
 git clone https://github.com/makenotion/notion-sdk-js.git
 
 # Switch into this project
-cd notion-sdk-js/examples/github-issue-sync
+cd notion-sdk-js/examples/notion-github-sync
 
 # Install the dependencies
 npm install
@@ -36,6 +36,8 @@ You can create your Notion API key [here](https://www.notion.com/my-integrations
 You can create your GitHub Personal Access token by following the guide [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
 
 To create a Notion database that will work with this example, duplicate [this empty database template](https://www.notion.com/367cd67cfe8f49bfaf0ac21305ebb9bf?v=bc79ca62b36e4c54b655ceed4ef06ebd).
+
+Your Notion integration will need access to the Notion database you have created. To provide access, follow the instructions found in Notion's [Integration guide](https://developers.notion.com/docs/create-a-notion-integration#step-2-share-a-database-with-your-integration).
 
 ### 3. Run code
 

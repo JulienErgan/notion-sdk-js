@@ -10,7 +10,7 @@
 // const { Client } = require("@notionhq/client");
 // const dotenv = require("dotenv");
 // const sendgridMail = require("@sendgrid/mail");
-import { Client } from "@notionhq/client";
+import { Client } from "@notionhq/client";xx
 import dotenv from "dotenv";
 import sendgridMail from "@sendgrid/mail";
 

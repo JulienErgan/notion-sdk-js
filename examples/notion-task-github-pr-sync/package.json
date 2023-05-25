@@ -1,7 +1,7 @@
 {
-  "name": "github-issue-sync",
+  "name": "notion-task-github-pr-sync",
   "version": "1.0.0",
-  "description": "Sync GitHub issues with Notion.",
+  "description": "Sync Notion tasks with Github PRs",
   "main": "index.js",
   "engines": {
     "node": "12.x"
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": ""
   },
-  "author": "Aman Gupta",
+  "author": "Sid Verma",
   "license": "MIT",
   "dependencies": {
     "@notionhq/client": "file:../../",
