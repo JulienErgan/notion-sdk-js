@@ -1,15 +1,18 @@
 /* ================================================================================
 
 	database-update-send-email.
-  
+
   Glitch example: https://glitch.com/edit/#!/notion-database-email-update
   Find the official Notion API client @ https://github.com/makenotion/notion-sdk-js/
 
 ================================================================================ */
 
-const { Client } = require("@notionhq/client")
-const dotenv = require("dotenv")
-const sendgridMail = require("@sendgrid/mail")
+// const { Client } = require("@notionhq/client");
+// const dotenv = require("dotenv");
+// const sendgridMail = require("@sendgrid/mail");
+import { Client } from "@notionhq/client";
+import dotenv from "dotenv";
+import sendgridMail from "@sendgrid/mail";
 
 dotenv.config()
 sendgridMail.setApiKey(process.env.SENDGRID_KEY)

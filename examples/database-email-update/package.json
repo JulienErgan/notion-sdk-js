@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Send an email with SendGrid when an update is made in Notion.",
   "main": "index.js",
+  "type": "module",
   "engines": {
     "node": "12.x"
   },
